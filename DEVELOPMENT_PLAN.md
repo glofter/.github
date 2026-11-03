@@ -4,7 +4,7 @@
 
 **How to use:** Change `- [ ]` → `- [x]` and date the **Status** line when you complete an item. Do not check partial work unless acceptance criteria are met.
 
-**Status:** Plan published 2026-11-03. P0.1–P0.2 + P0.3 + P0.4 + P0.6 done.
+**Status:** Plan published 2026-11-03. P0.1–P0.6 done.
 
 ---
 
@@ -23,7 +23,7 @@
 - [x] **2.** Demo DB run `backfill:photo-thumbs` (dry-run → apply) + record result — **0.5d**
 - [x] **3.** Fix themes ZIP download 503 — **1d**
 - [x] **4.** `protocol` Photo + `thumbUrl` DTO + Studio/Hub docs — **0.5d**
-- [ ] **5.** OSS cleanup: secrets/local paths/private notes, LICENSE, honest READMEs — **2d**
+- [x] **5.** OSS cleanup: secrets/local paths/private notes, LICENSE, honest READMEs — **2d**
 - [x] **6.** Org development plan page live + checkbox workflow — **0.5d** (Hiker writes, wang maintains checks)
 
 ---
@@ -83,3 +83,4 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 | 2026-11-03 | P0.2 | Demo backfill: dry-run 1 raster + 7 svg skip; apply processed=1 (pho_5a5c51e05279389d); record in glofter-arc docs/backfill-demo-2026-11-03.json |
 | 2026-11-03 | P0.3 | studio#2 + hub#1 on main: vendored theme ZIP (no themes package); themes download 503 fixed |
 | 2026-11-03 | P0.4 | protocol#1 Photo.thumbUrl + studio#3 honesty docs |
+| 2026-11-03 | P0.5 | MIT LICENSE on studio/hub/protocol/themes/website/app; scrub /workspace+Hiker from website public; portable themes roots (studio#4, hub#3); app .env/keystore gitignore + payment honesty. |
