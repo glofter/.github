@@ -45,7 +45,7 @@ Aligned with **P1 #8** (AUP shell-only, Choice B).
 - [x] **7.** TransferV2 auto encode/broadcast into booking-pay (flag-gated, no PaymentKit) — **3–4d** — done 2026-11-03 (studio#5)
 - [x] **8.** AUP shell-only formalized (`:4900` facade + deep-link Fastify; **not** in-daemon SPA) — **3–4d** — done 2026-11-03 (docs honesty; in-daemon SPA deferred to separate later item)
 - [x] **9.** Studio joined-hubs table + manage list — **1–2d** — done 2026-11-03 ([studio#8](https://github.com/glofter/studio/pull/8))
-- [ ] **10.** Hub binary image sync (or label JSON-cards-only) — **2–3d**
+- [x] **10.** Hub binary image sync (or label JSON-cards-only) — **2–3d** — done 2026-11-03 ([hub#6](https://github.com/glofter/hub/pull/6); **json-cards-only** fork — no binary mirror)
 - [ ] **11.** App store prep: `eas init` projectId, credentials, store materials — **2d** (needs user accounts)
 
 ---
@@ -81,7 +81,7 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 - **With App prep:** ~5–6 weeks  
 - **Full P2:** ~7–9 weeks  
 
-**Risks:** AUP scope creep (product stays on Fastify; AUP remains shell-only — see Vocabulary); TransferV2 / booking-pay regressions after P1.7.
+**Risks:** AUP scope creep (product stays on Fastify; AUP remains shell-only — see Vocabulary); TransferV2 / booking-pay regressions after P1.7; **P1 #11** blocked on user EAS / store accounts (see M3).
 
 ---
 
@@ -97,3 +97,4 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 | 2026-11-03 | P0.4 | protocol#1 Photo.thumbUrl + studio#3 honesty docs |
 | 2026-11-03 | P0.5 | MIT LICENSE on studio/hub/protocol/themes/website/app; scrub /workspace+Hiker from website public; portable themes roots (studio#4, hub#3); app .env/keystore gitignore + payment honesty. |
 | 2026-11-03 | P1.9 | studio#8: SQLite `joined_hubs`, manage list + best-effort refresh, register/sync persist. |
+| 2026-11-03 | P1.10 | hub#6: json-cards-only honesty (syncMode/notice + docs); binary mirror not chosen. |
