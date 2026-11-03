@@ -6,6 +6,10 @@
 
 **Status:** Plan published 2026-11-03. P0.1–P0.6 done.
 
+## Handoff (2026-11-03)
+
+Pause snapshots (repo root, beside this plan): [HANDOFF-2026-11-03.md](./HANDOFF-2026-11-03.md) (Hiker / user-facing), [HANDOFF-wang-2026-11-03.md](./HANDOFF-wang-2026-11-03.md) (engineer). Recent merges: [hub#8](https://github.com/glofter/hub/pull/8) (P2.14), [hub#9](https://github.com/glofter/hub/pull/9) (P2.15).
+
 ## 计划口径 / Vocabulary
 
 User-confirmed product wording for this plan (docs and comms — not a runtime spec):
