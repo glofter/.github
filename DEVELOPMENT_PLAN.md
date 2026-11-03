@@ -30,7 +30,7 @@
 
 ## P1 — product loop (~10–14d)
 
-- [ ] **7.** TransferV2 auto encode/broadcast into booking-pay (flag-gated, no PaymentKit) — **3–4d**
+- [x] **7.** TransferV2 auto encode/broadcast into booking-pay (flag-gated, no PaymentKit) — **3–4d** — done 2026-11-03 (studio#5)
 - [ ] **8.** AUP in-daemon real SPA (or document shell-only) — **3–4d**
 - [ ] **9.** Studio joined-hubs table + manage list — **1–2d**
 - [ ] **10.** Hub binary image sync (or label JSON-cards-only) — **2–3d**
