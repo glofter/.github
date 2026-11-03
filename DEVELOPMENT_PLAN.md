@@ -55,7 +55,7 @@ Aligned with **P1 #8** (AUP shell-only, Choice B).
 - [x] **12.** Media GIF/HEIC policy + full resize + orphan cleanup — **3–4d** — done 2026-11-03 ([studio#10](https://github.com/glofter/studio/pull/10); GIF/HEIC rejected by policy; `GLOFTER_FULL_MAX_EDGE`; delete-path local file unlink)
 - [x] **13.** Object storage/CDN adapter — **3–4d** — done 2026-11-03 ([studio#11](https://github.com/glofter/studio/pull/11); pluggable `media-store` local|s3; CDN public URL + GET /media 302; health.driver)
 - [x] **14.** On-chain/NFT resolve signed-join pubkey — **2–3d** — done 2026-11-03 ([hub#8](https://github.com/glofter/hub/pull/8); resolver cache→nft→chain→body; node_cache; beta chain only; body fallback gated)
-- [ ] **15.** Signed Studio→Hub content push — **2–3d**
+- [x] **15.** Signed Studio→Hub content push — **2–3d** — done 2026-11-03 ([hub#9](https://github.com/glofter/hub/pull/9); `POST /api/hub/studios/self/content` json-cards-only; upsert default / replace optional; approved + signed)
 
 ---
 
@@ -101,3 +101,4 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 | 2026-11-03 | P2.12 | studio#10: GIF/HEIC 415 policy codes; full max-edge resize; photo DELETE unlinks local media. |
 | 2026-11-03 | P2.13 | studio#11: media-store local|s3; uploads/DELETE/backfill/GET /media via store; optional GLOFTER_S3_*; health.driver. |
 | 2026-11-03 | P2.14 | hub#8: studio PK resolver cache→nft→chain→body; node_cache; GLOFTER_HUB_PK_RESOLVER / ALLOW_BODY_STUDIO_PK; beta chain only. |
+| 2026-11-03 | P2.15 | hub#9: signed JSON discover push; upsert/replace; coexists with pull; no binary. |
