@@ -4,7 +4,7 @@
 
 **How to use:** Change `- [ ]` → `- [x]` and date the **Status** line when you complete an item. Do not check partial work unless acceptance criteria are met.
 
-**Status:** Plan published 2026-11-03.
+**Status:** Plan published 2026-11-03. P0.1 monorepo sync done; P0.6 plan page live.
 
 ---
 
@@ -19,12 +19,12 @@
 
 ## P0 — honesty / demo (~5–7 person-days)
 
-- [ ] **1.** Sync `glofter-arc` monorepo ← `studio#1` — **0.5d**
+- [x] **1.** Sync `glofter-arc` monorepo ← `studio#1` — **0.5d**
 - [ ] **2.** Demo DB run `backfill:photo-thumbs` (dry-run → apply) + record result — **0.5d**
 - [ ] **3.** Fix themes ZIP download 503 — **1d**
 - [ ] **4.** `protocol` Photo + `thumbUrl` DTO + Studio/Hub docs — **0.5d**
 - [ ] **5.** OSS cleanup: secrets/local paths/private notes, LICENSE, honest READMEs — **2d**
-- [ ] **6.** Org development plan page live + checkbox workflow — **0.5d** (Hiker writes, wang maintains checks)
+- [x] **6.** Org development plan page live + checkbox workflow — **0.5d** (Hiker writes, wang maintains checks)
 
 ---
 
@@ -78,3 +78,5 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 | Date | Milestone | Note |
 |------|-----------|------|
 | 2026-11-03 | Plan | Plan published; `studio#1` done; site on Pages |
+| 2026-11-03 | P0.6 | Plan page live on glofter/.github DEVELOPMENT_PLAN.md |
+| 2026-11-03 | P0.1 | Synced glofter-arc ← studio#1 (media-backfill + tests); node test pass |
