@@ -6,6 +6,18 @@
 
 **Status:** Plan published 2026-11-03. P0.1–P0.6 done.
 
+## 计划口径 / Vocabulary
+
+User-confirmed product wording for this plan (docs and comms — not a runtime spec):
+
+- **AUP** — 门面：shell on `:4900` that deep-links to Fastify; **not** the product host or primary UX surface.
+- **Fastify** — 产品：**Choice B** (Fastify + SQLite): Studio `:3101`, Hub `:3102`.
+- **CSS packs** — ARC 公网主题: `@glofter/themes` tokens, layouts, and lightbox packs.
+- **Legacy React themes** — Do **not** promise that legacy React theme code can be developed or run **as-is** on AUP or Web Device.
+- **完整 Web Device 主题** — A **separate later project** to rebuild that experience; **not** a migration switch, toggle, or “flip legacy React on AUP.”
+
+Aligned with **P1 #8** (AUP shell-only, Choice B).
+
 ---
 
 ## Done (pre-checked)
@@ -49,7 +61,7 @@
 
 ## Frozen (do not schedule)
 
-PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme market; legacy React theme runtime.
+PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme market; running or porting legacy React themes **as-is** on AUP / Web Device (full Web Device theme = separate rebuild — see Vocabulary).
 
 ---
 
@@ -69,7 +81,7 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 - **With App prep:** ~5–6 weeks  
 - **Full P2:** ~7–9 weeks  
 
-**Risks:** AUP in-daemon vs shell-only; TransferV2 encode/broadcast into booking-pay.
+**Risks:** AUP scope creep (product stays on Fastify; AUP remains shell-only — see Vocabulary); TransferV2 / booking-pay regressions after P1.7.
 
 ---
 
