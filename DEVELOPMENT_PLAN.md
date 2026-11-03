@@ -8,7 +8,7 @@
 
 ## Handoff (2026-11-03)
 
-Pause snapshots (repo root, beside this plan): [HANDOFF-2026-11-03.md](./HANDOFF-2026-11-03.md) (Hiker / user-facing), [HANDOFF-wang-2026-11-03.md](./HANDOFF-wang-2026-11-03.md) (engineer). Recent merges: [hub#8](https://github.com/glofter/hub/pull/8) (P2.14), [hub#9](https://github.com/glofter/hub/pull/9) (P2.15).
+**Glofter-only** pause snapshots (repo root, beside this plan): [HANDOFF-2026-11-03.md](./HANDOFF-2026-11-03.md) (Hiker / user-facing), [HANDOFF-wang-2026-11-03.md](./HANDOFF-wang-2026-11-03.md) (engineer). Recent merges: [hub#8](https://github.com/glofter/hub/pull/8) (P2.14), [hub#9](https://github.com/glofter/hub/pull/9) (P2.15). **DIDMail** handoff and status live in the private repo [didmail-org/didmail](https://github.com/didmail-org/didmail) (`HANDOFF-2026-11-03.md` there)—not in this org.
 
 ## 计划口径 / Vocabulary
 
