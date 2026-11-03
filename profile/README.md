@@ -4,6 +4,8 @@
 
 Official site: [glofter.com](https://glofter.com)
 
+**Development plan (tasks & schedule):** [DEVELOPMENT_PLAN.md](../DEVELOPMENT_PLAN.md) · [on GitHub](https://github.com/glofter/.github/blob/main/DEVELOPMENT_PLAN.md)
+
 ## What it is
 
 GLofter helps photographers run a branded studio on the open web while a Hub helps clients discover studios and book sessions. Identity and payments lean on ArcBlock DID (testnet TBA for payments while we harden UX and security).
@@ -18,7 +20,7 @@ Design goal: clean, portfolio-first UI — each photographer as a brand.
 | [hub](https://github.com/glofter/hub) | Multi-studio discovery & join network |
 | [protocol](https://github.com/glofter/protocol) | Shared protocol & types |
 | [themes](https://github.com/glofter/themes) | Theme packs (manifest + layouts) |
-| [website](https://github.com/glofter/website) | Marketing / docs for glofter.com |
+| [glofter.github.io](https://github.com/glofter/glofter.github.io) | Org GitHub Pages / official site (`glofter.com`) |
 | [app](https://github.com/glofter/app) | Mobile client (Expo / React Native) |
 
 Most repos are private while the ARC rebuild and usability testing finish; we plan to open-source when the public surface and honesty/security bar are solid.
