@@ -30,8 +30,8 @@
 
 ## P1 — product loop (~10–14d)
 
-- [ ] **7.** TransferV2 auto encode/broadcast into booking-pay (flag-gated, no PaymentKit) — **3–4d**
-- [ ] **8.** AUP in-daemon real SPA (or document shell-only) — **3–4d**
+- [x] **7.** TransferV2 auto encode/broadcast into booking-pay (flag-gated, no PaymentKit) — **3–4d** — done 2026-11-03 (studio#5)
+- [x] **8.** AUP shell-only formalized (`:4900` facade + deep-link Fastify; **not** in-daemon SPA) — **3–4d** — done 2026-11-03 (docs honesty; in-daemon SPA deferred to separate later item)
 - [ ] **9.** Studio joined-hubs table + manage list — **1–2d**
 - [ ] **10.** Hub binary image sync (or label JSON-cards-only) — **2–3d**
 - [ ] **11.** App store prep: `eas init` projectId, credentials, store materials — **2d** (needs user accounts)
