@@ -52,7 +52,7 @@ Aligned with **P1 #8** (AUP shell-only, Choice B).
 
 ## P2 — later (~8–12d)
 
-- [ ] **12.** Media GIF/HEIC policy + full resize + orphan cleanup — **3–4d**
+- [x] **12.** Media GIF/HEIC policy + full resize + orphan cleanup — **3–4d** — done 2026-11-03 ([studio#10](https://github.com/glofter/studio/pull/10); GIF/HEIC rejected by policy; `GLOFTER_FULL_MAX_EDGE`; delete-path local file unlink)
 - [ ] **13.** Object storage/CDN adapter — **3–4d**
 - [ ] **14.** On-chain/NFT resolve signed-join pubkey — **2–3d**
 - [ ] **15.** Signed Studio→Hub content push — **2–3d**
@@ -98,3 +98,4 @@ PaymentKit / Stripe / SubGuard / mainnet real money; CNY→TBA FX; paid theme ma
 | 2026-11-03 | P0.5 | MIT LICENSE on studio/hub/protocol/themes/website/app; scrub /workspace+Hiker from website public; portable themes roots (studio#4, hub#3); app .env/keystore gitignore + payment honesty. |
 | 2026-11-03 | P1.9 | studio#8: SQLite `joined_hubs`, manage list + best-effort refresh, register/sync persist. |
 | 2026-11-03 | P1.10 | hub#6: json-cards-only honesty (syncMode/notice + docs); binary mirror not chosen. |
+| 2026-11-03 | P2.12 | studio#10: GIF/HEIC 415 policy codes; full max-edge resize; photo DELETE unlinks local media. |
